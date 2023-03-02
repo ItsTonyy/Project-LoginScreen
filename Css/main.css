@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  height: 800px;
+  width: 800px;
+  justify-content: center;
+  align-items: center;
+}
+.container .subContainer1 {
+  flex: 1;
+}
+.container .subContainer2 {
+  flex: 1;
+}/*# sourceMappingURL=main.css.map */
