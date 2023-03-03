@@ -1,20 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 
+body {
+    background: linear-gradient(90deg, #efd5ff 0%, #757cde 100%);
+    margin: 0;
+    padding: 0;
+}
 
 .container {
+    margin: auto;
     display: flex;
-    height: 800px;
-    width: 800px;
+    background-color: white;
+    height: 698px;
+    width: 1400px;
+    border-radius: 10px;
 
-    justify-content: center;
-    align-items: center;
 
 
     .subContainer1 {
+        
         flex: 1;
+        img {
+            border-radius: 10px 0px 0px 10px;
+        }
     }
 
     .subContainer2 {
+        
         flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .sino {
+
+            height: 50px;
+            width: 50px;
+        }
+
+        h1 {
+            font-family: roboto;
+            font-weight: 400;
+            font-size: 45px;
+            margin-bottom: -10px;
+        }
+
+        h2 {
+            font-family: roboto;
+            font-size: 20px;
+            font-weight: 300;
+            margin-bottom: 90px;
+        }
+
+        p {
+            align-self: flex-start;
+            margin-left: 50px;
+            font-family: roboto;
+            font-weight: 600;
+            font-size: 18px;
+            margin-bottom: 5px;
+            color: rgb(74, 74, 74);
+        }
+
+        /* Estilo do input de email */
+        .email {
+            width: 600px;
+            height: 30px;
+            border-color: rgb(255, 255, 255);
+            box-shadow: 0px 4px 5px rgb(199, 199, 199);
+            border-width: 1px;
+            border-radius: 5px;
+        }
+        
+
+        /* Estilo do botão */
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        button {
+            background-color: #AA9FFF;
+            margin-top: 20px;
+            width: 600px;
+            border-radius: 25px;
+            padding: 12px;
+            border: none;
+            cursor: pointer;
+        }
 
     }
 
