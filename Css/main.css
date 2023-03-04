@@ -72,11 +72,15 @@ body .container .subContainer2 .email {
   border-width: 1px;
   border-radius: 5px;
 }
+body .container .subContainer2 .email:focus {
+  box-shadow: 0px 0px 0px black;
+}
 body .container .subContainer2 a {
+  font-family: roboto;
   text-decoration: none;
   color: white;
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: 500;
 }
 body .container .subContainer2 button {
   background-color: #aa9fff;
@@ -86,4 +90,7 @@ body .container .subContainer2 button {
   padding: 0.72rem;
   border: none;
   cursor: pointer;
+}
+body .container .subContainer2 button:active {
+  width: 35rem;
 }/*# sourceMappingURL=main.css.map */
