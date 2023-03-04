@@ -2,50 +2,56 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
 body {
   background: linear-gradient(90deg, #efd5ff 0%, #757cde 100%);
-  margin: 0;
-  padding: 0;
+  overflow: hidden;
 }
-
-.container {
-  margin: auto;
+body .main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body .container {
   display: flex;
   background-color: white;
   height: 698px;
   width: 1400px;
   border-radius: 10px;
 }
-.container .subContainer1 {
+body .container .subContainer1 {
+  display: flex;
   flex: 1;
 }
-.container .subContainer1 img {
+body .container .subContainer1 img {
   border-radius: 10px 0px 0px 10px;
 }
-.container .subContainer2 {
+body .container .subContainer2 {
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* Estilo do título e das frases */
   /* Estilo do input de email */
   /* Estilo do botão */
 }
-.container .subContainer2 .sino {
+body .container .subContainer2 .sino {
   height: 50px;
   width: 50px;
 }
-.container .subContainer2 h1 {
+body .container .subContainer2 h1 {
   font-family: roboto;
   font-weight: 400;
   font-size: 45px;
   margin-bottom: -10px;
 }
-.container .subContainer2 h2 {
+body .container .subContainer2 h2 {
   font-family: roboto;
   font-size: 20px;
   font-weight: 300;
   margin-bottom: 90px;
 }
-.container .subContainer2 p {
+body .container .subContainer2 p {
+  display: flex;
   align-self: flex-start;
   margin-left: 50px;
   font-family: roboto;
@@ -54,7 +60,7 @@ body {
   margin-bottom: 5px;
   color: rgb(74, 74, 74);
 }
-.container .subContainer2 .email {
+body .container .subContainer2 .email {
   width: 600px;
   height: 30px;
   border-color: rgb(255, 255, 255);
@@ -62,14 +68,14 @@ body {
   border-width: 1px;
   border-radius: 5px;
 }
-.container .subContainer2 a {
+body .container .subContainer2 a {
   text-decoration: none;
   color: white;
   font-size: 20px;
   font-weight: bold;
 }
-.container .subContainer2 button {
-  background-color: #AA9FFF;
+body .container .subContainer2 button {
+  background-color: #aa9fff;
   margin-top: 20px;
   width: 600px;
   border-radius: 25px;
